@@ -1,0 +1,2 @@
+# PATTERNS
+Gang of Four Patterns expressed in C 99 using modern C idioms and approaches.
