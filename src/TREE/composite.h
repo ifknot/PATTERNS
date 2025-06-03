@@ -1,3 +1,6 @@
+#ifndef COMPOSITE_H
+#define COMPOSITE_H
+
 //The GoF (Gang of Four) Composite Design Pattern 
 
 // Forward declare opaque pointer types
@@ -19,3 +22,5 @@ void component_operate(component_t *self);
 composite_t* composite_create(void);
 
 void composite_add(composite_t *comp, component_t *child);
+
+#endif
